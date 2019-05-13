@@ -1,0 +1,11 @@
+<h1> Stupid coaching </h1>
+<div id="you">
+    <p> You : </p>
+    <%= params[:question] %>
+</div>
+
+<div id="coach">
+    <p> Stupid coach : </p>
+    <%= @answer %>
+</div>
+<%= link_to 'back to home', ask_path %>
